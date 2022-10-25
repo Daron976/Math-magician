@@ -1,4 +1,4 @@
-# To-Do-List
+# Math Magician
 
 > In this project, I use a react enviroment to create a single-page app that contains a working calculator with a random quote.
 
