@@ -3,7 +3,7 @@ import React from 'react';
 class CalculatorDom extends React.PureComponent {
   render() {
     return (
-      <section id="calculator" className="flex">
+      <section id="calculator" data-testid="calculator" className="flex">
         <div className="calculatorWrapper flex">
           <p className="screen flex">0</p>
           <div className="btns flex">

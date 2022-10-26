@@ -1,12 +1,12 @@
 import React from 'react'; // eslint-disable-line
 import ReactDOM from 'react-dom/client'; // eslint-disable-line
 import './index.css';
-import CalculatorDom from './components/calculator';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CalculatorDom />
+    <App />
   </React.StrictMode>,
 );
 
