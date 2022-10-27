@@ -1,23 +1,21 @@
 import PropTypes from 'prop-types';
 
-function Display({ total, next }) {
-  if (total) {
-    return (
-      <p className="screen flex">{total}</p>
-    );
-  } if (next) {
-    return (
-      <p className="screen flex">{next}</p>
-    );
-  }
+function Display({ total, next, operation }) {
   return (
-    <p className="screen flex">0</p>
+    <p className="screen flex">
+      {total}
+      {' '}
+      {operation}
+      {' '}
+      {next}
+    </p>
   );
 }
 
 Display.propTypes = {
   total: PropTypes.number.isRequired,
   next: PropTypes.number.isRequired,
+  operation: PropTypes.string.isRequired,
 };
 
 export default Display;
