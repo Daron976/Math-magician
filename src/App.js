@@ -1,5 +1,5 @@
 import React from 'react';
-import CalculatorDom from './components/calculator'; // eslint-disable line
+import CalculatorDom from './components/calculator';
 
 class App extends React.PureComponent {
   render() {
