@@ -17,6 +17,7 @@ const CalculatorDom = () => {
 
   return (
     <section id="calculator" data-testid="calculator" className="flex">
+      <h1>Let&#39;s make some calculations</h1>
       <div className="calculatorWrapper flex">
         <Display {...state} />
         <div className="btns flex">
