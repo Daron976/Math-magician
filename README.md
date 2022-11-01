@@ -1,6 +1,6 @@
 # Math Magician
 
-> In this project, I use a react enviroment to create a single-page app that contains a working calculator with a random quote.
+> In this project, I use a react web application to create a single-page app that contains a working calculator with a random quote.
 
 
 ## Built With
