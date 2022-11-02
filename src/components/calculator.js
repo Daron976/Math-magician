@@ -23,6 +23,7 @@ const Calculator = () => {
         <div className="btns flex">
           <div className="numbers">
             <div className="specialCharacters">
+              {' '}
               <button onClick={buttonClick} type="button" className="symbol">AC</button>
               <button onClick={buttonClick} type="button" className="symbol">+/-</button>
               <button onClick={buttonClick} type="button" className="symbol">%</button>

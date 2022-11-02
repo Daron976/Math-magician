@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Display({ total, next, operation }) {
   return (
-    <p className="screen flex">
+    <p className="screen flex" data-testid="display">
       {total}
       {' '}
       {operation}
@@ -13,8 +13,8 @@ function Display({ total, next, operation }) {
 }
 
 Display.propTypes = {
-  total: PropTypes.number.isRequired,
-  next: PropTypes.number.isRequired,
+  total: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
   operation: PropTypes.string.isRequired,
 };
 

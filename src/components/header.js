@@ -6,7 +6,7 @@ const Header = () => (
     <p className="logo"><strong>Math Magician</strong></p>
     <nav>
       <ul className="nav-link">
-        <li className="link-item"><Link to="/">Home</Link></li>
+        <li className="link-item" id="home" data-testid="home"><Link to="/">Home</Link></li>
         <li>|</li>
         <li className="link-item"><Link to="/calculator">Calculator</Link></li>
         <li>|</li>
