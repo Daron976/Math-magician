@@ -1,6 +1,6 @@
 # Math Magician
 
-> In this project, I use a react enviroment to create a single-page app that contains a working calculator with a random quote.
+> In this project, I use a react web application to create a single-page app that contains a working calculator with a random quote.
 
 
 ## Built With
@@ -41,7 +41,7 @@
 ### Deployment
 
 - Run `npm start` in an intergrated terminal in order to start a local live server.
-- Or try the [Live Demo](https://daron976.github.io/Math-magician/build) (if available)
+- Or try the [Live Demo]() (if available)
 
 
 ## Author/s
