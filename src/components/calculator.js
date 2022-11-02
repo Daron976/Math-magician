@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Display from './display';
 
-const CalculatorDom = () => {
+const Calculator = () => {
   const [state, setState] = useState({
     total: null,
     next: null,
@@ -60,4 +60,4 @@ const CalculatorDom = () => {
   );
 };
 
-export default CalculatorDom;
+export default Calculator;
