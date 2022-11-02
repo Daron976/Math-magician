@@ -41,7 +41,7 @@
 ### Deployment
 
 - Run `npm start` in an intergrated terminal in order to start a local live server.
-- Or try the [Live Demo](https://daron976.github.io/Math-magician/build) (if available)
+- Or try the [Live Demo]() (if available)
 
 
 ## Author/s
