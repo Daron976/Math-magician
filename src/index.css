@@ -13,6 +13,16 @@ body {
   display: flex;
 }
 
+.numbers {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
 #calculator {
   justify-content: space-around;
   align-items: start;
@@ -24,14 +34,24 @@ body {
 }
 
 button {
-  width: 7rem;
+  /* max-width: 7rem; */
   height: 4rem;
   border: 0.5px solid #bfbfbf;
   color: #140f12;
 }
 
-.fourthRow .number {
-  width: 14rem;
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fourthRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#double {
+  max-width: 100%;
 }
 
 .operators .symbol {
@@ -94,16 +114,17 @@ h1 {
   padding: 1rem;
   border-radius: 15px;
   box-shadow: 20px 20px 50px 15px grey;
+}
+
+.text-container {
   max-width: 70rem;
 }
 
 .calculatorWrapper {
-  flex-direction: column;
-  justify-content: center;
-  min-width: 28rem;
-  min-height: 24rem;
+  display: grid;
   margin-top: 5rem;
   padding: 0;
+  width: 28rem;
 }
 
 .home-header {
@@ -164,5 +185,24 @@ footer p {
 
   .calculatorWrapper {
     margin: 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .calculatorWrapper {
+    width: 100%;
+  }
+
+  button {
+    height: 3rem;
+  }
+
+  .nav-link {
+    gap: 1rem;
   }
 }

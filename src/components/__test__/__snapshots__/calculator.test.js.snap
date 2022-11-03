@@ -26,7 +26,7 @@ exports[`Calculator component header renders as exepcted 1`] = `
         className="numbers"
       >
         <div
-          className="specialCharacters"
+          className="specialCharacters btn-grid"
         >
            
           <button
@@ -52,7 +52,7 @@ exports[`Calculator component header renders as exepcted 1`] = `
           </button>
         </div>
         <div
-          className="firstRow"
+          className="firstRow btn-grid"
         >
           <button
             className="number"
@@ -80,7 +80,7 @@ exports[`Calculator component header renders as exepcted 1`] = `
           </button>
         </div>
         <div
-          className="secondRow"
+          className="secondRow btn-grid"
         >
           <button
             className="number"
@@ -108,7 +108,7 @@ exports[`Calculator component header renders as exepcted 1`] = `
           </button>
         </div>
         <div
-          className="thirdRow"
+          className="thirdRow btn-grid"
         >
           <button
             className="number"
@@ -140,6 +140,7 @@ exports[`Calculator component header renders as exepcted 1`] = `
         >
           <button
             className="number"
+            id="double"
             onClick={[Function]}
             type="button"
             value="0"
