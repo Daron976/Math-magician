@@ -121,7 +121,8 @@ h1 {
 }
 
 .calculatorWrapper {
-  background: none;
+  background: #bfbfbf;
+  border-radius: 0;
   display: grid;
   margin-top: 5rem;
   padding: 0;
