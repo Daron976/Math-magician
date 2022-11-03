@@ -22,29 +22,29 @@ const Calculator = () => {
         <Display {...state} />
         <div className="btns flex">
           <div className="numbers">
-            <div className="specialCharacters">
+            <div className="specialCharacters btn-grid">
               {' '}
               <button onClick={buttonClick} type="button" className="symbol">AC</button>
               <button onClick={buttonClick} type="button" className="symbol">+/-</button>
               <button onClick={buttonClick} type="button" className="symbol">%</button>
             </div>
-            <div className="firstRow">
+            <div className="firstRow btn-grid">
               <button onClick={buttonClick} type="button" className="number" value="7">7</button>
               <button onClick={buttonClick} type="button" className="number" value="8">8</button>
               <button onClick={buttonClick} type="button" className="number" value="9">9</button>
             </div>
-            <div className="secondRow">
+            <div className="secondRow btn-grid">
               <button onClick={buttonClick} type="button" className="number" value="4">4</button>
               <button onClick={buttonClick} type="button" className="number" value="5">5</button>
               <button onClick={buttonClick} type="button" className="number" value="6">6</button>
             </div>
-            <div className="thirdRow">
+            <div className="thirdRow btn-grid">
               <button onClick={buttonClick} type="button" className="number" value="1">1</button>
               <button onClick={buttonClick} type="button" className="number" value="2">2</button>
               <button onClick={buttonClick} type="button" className="number" value="3">3</button>
             </div>
             <div className="fourthRow">
-              <button onClick={buttonClick} type="button" className="number" value="0">0</button>
+              <button onClick={buttonClick} type="button" className="number" id="double" value="0">0</button>
               <button onClick={buttonClick} type="button" className="symbol">.</button>
             </div>
           </div>
