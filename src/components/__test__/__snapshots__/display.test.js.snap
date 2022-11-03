@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component display component renders as exepcted 1`] = `
+<p
+  className="screen flex"
+  data-testid="display"
+>
+  23
+   
+  +
+   
+  34
+</p>
+`;

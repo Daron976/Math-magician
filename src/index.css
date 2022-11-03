@@ -140,3 +140,29 @@ footer p {
   padding: 0 1rem;
   width: 100%;
 }
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+  .App {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .nav-link {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  #calculator {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculatorWrapper {
+    margin: 0;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import CalculatorDom from './components/calculator';
+import Calculator from './components/calculator';
 import Home from './components/home';
 import Header from './components/header';
 import Quote from './components/quote';
@@ -14,7 +14,7 @@ class App extends React.PureComponent {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/calculator" element={<CalculatorDom />} />
+            <Route path="/calculator" element={<Calculator />} />
             <Route path="/quote" element={<Quote />} />
           </Routes>
         </BrowserRouter>

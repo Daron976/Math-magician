@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component header renders as exepcted 1`] = `
+<footer
+  className="footer-wrapper"
+  data-testid="footer"
+>
+  <div
+    className="footer-content"
+  >
+    <p
+      className="copyright-text"
+    >
+      Created with mathematical inspirations
+    </p>
+  </div>
+</footer>
+`;

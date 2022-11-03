@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component header renders as exepcted 1`] = `
+<header
+  className="header"
+>
+  <p
+    className="logo"
+  >
+    <strong>
+      Math Magician
+    </strong>
+  </p>
+  <nav>
+    <ul
+      className="nav-link"
+    >
+      <li
+        className="link-item"
+        data-testid="home"
+        id="home"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        |
+      </li>
+      <li
+        className="link-item"
+      >
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        |
+      </li>
+      <li
+        className="link-item"
+      >
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
